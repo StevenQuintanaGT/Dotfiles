@@ -1,0 +1,131 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: bold;
+    font-size: 16px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(21, 18, 27, 0);
+    color: #2b2b2c;
+}
+
+tooltip {
+    background: #e7e7ec;
+    opacity: 0.8;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #11111b;
+}
+
+tooltip label{
+    color: #2b2b2c;
+}
+
+#workspaces button {
+    padding: 5px;
+    color: #e7e7ec;
+    margin-right: 5px;
+}
+
+#workspaces button.active {
+    color: #e7e7ec;
+    background: #C23637;
+    border-radius: 10px;
+    margin: 2px;
+
+}
+
+#workspaces button.urgent {
+    color: #11111b;
+    background: #F2C1B1;
+    border-radius: 10px;
+}
+
+#workspaces button:hover {
+    background: #C23637;
+    color: #732727;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+#custom-themes,
+#custom-power_btn,
+#window,
+#cpu,
+#custom-updates,
+#memory,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#tray,
+#workspaces,
+#backlight{
+    background:#000000;
+    opacity: 1;
+    padding: 0px 10px;
+    margin: 3px 0px;
+    margin-top: 10px;
+    border: 0px;
+    color: #e7e7ec;
+}
+
+#backlight, #custom-themes, #cpu, #custom-power_btn{
+    border-radius: 10px 0px 0px 10px;
+}
+
+#workspaces, #pulseaudio.microphone, #battery, #clock{
+    border-radius: 0px 10px 10px 0px;
+    margin-right: 10px;
+}
+
+
+#workspaces {
+    border-radius: 10px;
+    padding-right: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#window {
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#custom-themes {
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 15px;
+}
+
+#pulseaudio {
+    color:#e7e7ec;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#pulseaudio.microphone {
+    color: #e7e7ec;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#battery {
+    border-left: 0px;
+    color: #e7e7ec;
+}
+
+#tray{
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#custom-power_btn{
+    color:#C23637;
+}
